@@ -1,5 +1,4 @@
 from typing import Optional
-
 from src.main.api.configs.config import Config
 from src.main.api.foundation.http_requester import HttpRequester
 from src.main.api.foundation.requesters.crud_requester import CrudRequester
