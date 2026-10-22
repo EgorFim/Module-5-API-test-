@@ -1,0 +1,1 @@
+{"uuid": "236e8ddf-503b-4010-b048-011bc01bd5e3", "befores": [{"name": "create_user_request", "status": "passed", "start": 1792588314148, "stop": 1792588314148}], "afters": [{"name": "create_user_request::<lambda>", "start": 1792588314996}], "start": 1792588314148, "stop": 1792588314996}
