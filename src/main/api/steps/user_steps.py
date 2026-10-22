@@ -1,7 +1,6 @@
 from src.main.api.foundation.endpoint import Endpoint
 from src.main.api.foundation.requesters.crud_requester import CrudRequester
 from src.main.api.foundation.requesters.validate_crud_requester import ValidateCrudRequester
-from src.main.api.models.bank_deposit_request import BankDepositRequest
 from src.main.api.models.create_user_request import CreateUserRequest
 from src.main.api.models.create_user_secret_request import CreateUserSecretRequest
 from src.main.api.specs.request_specs import RequestSpecs

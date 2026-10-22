@@ -1,5 +1,4 @@
 from enum import Enum
-
 from src.main.api.models.bank_deposit_request import BankDepositRequest
 from src.main.api.models.bank_deposit_response import BankDepositResponse
 from src.main.api.models.bank_transfer_request import BankTransferRequest
@@ -7,7 +6,6 @@ from src.main.api.models.bank_transfer_response import BankTransferResponse
 from src.main.api.models.base_model import BaseModel
 from typing import Optional, Type
 from dataclasses import dataclass
-
 from src.main.api.models.create_account_response import CreateAccountResponse
 from src.main.api.models.create_user_request import CreateUserRequest
 from src.main.api.models.create_user_response import CreateUserResponse
@@ -17,7 +15,7 @@ from src.main.api.models.credit_request import CreditRequest
 from src.main.api.models.credit_response import CreditResponse
 from src.main.api.models.login_user_request import LoginUserRequest
 from src.main.api.models.login_user_response import LoginUserResponse
-from src.main.api.requests.create_account_requester import CreateAccountRequester
+
 
 
 @dataclass
